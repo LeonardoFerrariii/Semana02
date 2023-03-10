@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+
+    <!-- Nome Aluno: Leonardo Ferrari -->
+            
+</head>
+<body>
+    <div>
+        <h1 style="color: darkorange;"> Formulário </h1>
+    </div>
+
+          <form >
+            <Fieldset> 
+                <Legend>Dados Pessoais</Legend>
+                <Label for="nome">Nome:</Label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+                <br>
+                <label for="endereco">Endereço:</label>
+                <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço...">
+                 <br>
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade" id="cidade" placeholder="Digite sua cidade...">
+                <br>
+                <label for="estado">Selecione seu estado:</label>
+                <select name="estado" id="estado">
+                        <option value="PR">Paraná</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="SP">São Paulo</option>
+                </select>
+
+                </form>
+                <Form >
+                
+            </Fieldset>
+
+            <fieldset >
+                <Legend>Dados profissionais</Legend>
+                <label for="opcao"> Natureza do Cargo</label>
+                <br>
+                <input type="radio" name="opcao" id="gerencia">
+                <label for="cargo">Gerência</label>
+
+                <input type="radio" name="opcao" id="financeiro">
+                <label for="cargo">Financeiro</label>
+
+                <input type="radio" name="opcao" id="recepcao">
+                <label for="cargo">Recepção</label>
+
+                <input type="radio" name="opcao" id="administrativo">
+                <label for="cargo">Administrativo</label>
+
+                <input type="radio" name="opcao" id="juridico">
+                <label for="cargo">Juridico</label>
+                <br>
+                <br>
+                <label for="option">Área de interesse</label>
+                <br>
+                <input type="checkbox" id="computacao" name="computacao" value="computacao">
+                <label for="computacao">Computação</label>
+
+                <input type="checkbox" id="biologia" name="biologia" value="biologia">
+                <label for="biologia">Biologia</label>
+
+                <input type="checkbox" id="meio_ambiente" name="meio_ambiente" value="meio_ambiente">
+                <label for="meio_ambiente">Meio Ambiente</label>
+
+                <input type="checkbox" id="engenharia" name="engenharia" value="engenharia">
+                <label for="engenharia">Engenharia</label>
+
+                <input type="checkbox" id="historia" name="historia" value="historia">
+                <label for="historia">História</label>
+                <br>
+                <br>
+                <label for="curriculo">Mini-curriculo:</label>
+                <textarea  name="curriculo" id="curriculo" cols="50" rows="10"></textarea>
+
+            </fieldset>
+                <input type="submit" value="Enviar" >
+                <input type="reset" value="Limpar" >
+
+                </Form>
+
+
+         
+</body>
+</html>
