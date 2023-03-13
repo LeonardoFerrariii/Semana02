@@ -1,0 +1,54 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+  /* Comentario*/
+
+body {
+    background: yellow;
+}
+p {
+    color: aqua;
+    font-family: sans-serif;
+    padding: 10px;
+    background-color: black;
+}
+
+.container{
+    background: red;
+    width: 300px;
+    height: 300px;
+}
+
+#rodape{
+    background: blue;
+    width: 300px;
+    height: 300px;
+}
+
+#primeiro {
+    background-color: aqua;
+    font-size: 20px;
+    width: 300px;
+    height: 300px;
+    border: 5px solid red;
+   /* border-style: solid;
+    border-color: rgb(255, 0, 0);
+    border-width: 5px; */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border-top: 5px solid orange;
+}
+
+#segundo {
+    background-image: url("../img/pet.jfif");
+    background-color: rgb(21, 255, 0);
+    background-size: 100px 100px;
+    background-repeat: no-repeat ;
+    background-position: center;
+    width: 300px;
+    height: 300px;
+}
