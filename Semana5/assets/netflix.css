@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-image: url('../assets/img/imagem.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    
+}
+
+#heading{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#heading div{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+
+#heading h1{
+    padding: 15px 0;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+#heading a{
+    color:white ;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.logo {
+    width: 100px;
+
+}
+#heading .h1 {
+   margin-top:15px ;
+   margin-bottom: 0;
+}
+.botao {
+    background-color: red;
+    padding: 8px;
+    border-radius: 5px;
+    
+}
+
+.selecao {
+    width: 100px;
+    height: 30px;
+    font-family: sans-serif;
+    font-size: 18px;
+
+
+}
+
+.corpo {
+    color: white;
+    font-family: sans-serif;
+    padding: 350px;
+    text-align: center;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.8) 0, rgba(0,0,0,0) 60%, rgba(0,0,0,0.8) 100%);
+     
+
+}

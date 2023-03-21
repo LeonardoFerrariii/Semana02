@@ -4,29 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <link rel="stylesheet" href="Estilos01.css">
 
     <!-- Nome Aluno: Leonardo Ferrari -->
             
 </head>
 <body>
     <div>
-        <h1 style="color: darkorange;"> Formulário </h1>
+        <h1 id="titulo"> Formulário </h1>
     </div>
-
+           
           <form >
-            <Fieldset> 
-                <Legend>Dados Pessoais</Legend>
-                <Label for="nome">Nome:</Label>
-                <input type="text" name="nome" id="nome" placeholder="Digite seu nome...">
+            <Fieldset class="dados1"> 
+                <Legend class="legenda">Dados Pessoais</Legend>
+                <Label class="nome" for="primeiro">Nome:</Label>
+                <input class="caixa_larga" type="text" id="nome" placeholder="Digite seu nome...">
                 <br>
-                <label for="endereco">Endereço:</label>
-                <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço...">
+                <label  class="nome" for="endereco">Endereço:</label>
+                <input class="caixa_larga" type="text"  id="endereco" placeholder="Digite seu endereço...">
                  <br>
-                <label for="cidade">Cidade:</label>
-                <input type="text" name="cidade" id="cidade" placeholder="Digite sua cidade...">
+                <label class="nome" for="cidade">Cidade:</label>
+                <input class="caixa_larga" type="text" id="cidade" placeholder="Digite sua cidade...">
                 <br>
-                <label for="estado">Selecione seu estado:</label>
-                <select name="estado" id="estado">
+                <label class="nome" for="estado">Selecione seu estado:</label>
+                <select class="estado" id="estado">
                         <option value="PR">Paraná</option>
                         <option value="SC">Santa Catarina</option>
                         <option value="MT">Mato Grosso</option>
@@ -37,11 +38,12 @@
                 </select>
 
                 </form>
+           
                 <Form >
                 
             </Fieldset>
 
-            <fieldset >
+            <fieldset class="dados2">
                 <Legend>Dados profissionais</Legend>
                 <label for="opcao" > Natureza do Cargo</label>
                 <br>
@@ -80,6 +82,7 @@
                 <br>
                 <br>
                 <label for="curriculo">Mini-curriculo:</label>
+                <br>
                 <textarea  name="curriculo" id="curriculo" cols="50" rows="10"></textarea>
 
             </fieldset>
